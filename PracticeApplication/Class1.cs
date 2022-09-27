@@ -6,5 +6,12 @@ namespace PracticeApplication
 {
     class Class1
     {
+
+        string message = "Hello world";
+        public void hello()
+        {
+            Console.WriteLine(message);
+        }
+        
     }
 }
