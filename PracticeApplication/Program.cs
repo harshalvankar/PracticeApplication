@@ -13,9 +13,9 @@ namespace PracticeApplication
 
             string data2 = Base64Encrypter.Encrypt(data);
             string data3 = Base64Encrypter.Decrypt(data2);
-
+            
             Console.WriteLine(data);
-            Console.WriteLine(data2);
+            //Console.WriteLine(data2);
             Console.WriteLine(data3);
 
             //Console.WriteLine(DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss"));
