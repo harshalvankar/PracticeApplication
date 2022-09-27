@@ -10,7 +10,7 @@ namespace PracticeApplication
         string message = "Hello world";
         public void hello()
         {
-            Console.WriteLine(message);
+            Console.WriteLine(message); Console.WriteLine(message); Console.WriteLine(message);
         }
         
     }
